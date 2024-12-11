@@ -1,0 +1,29 @@
+{
+  "name": "hello-world-vue",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "start": "vite"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1",
+    "vue-tsc": "^2.1.10"
+  },
+  "author": "redle",
+  "license": "ISC",
+  "description": "example vue component npn",
+  "keywords": ["vue"],
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
